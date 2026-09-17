@@ -40,12 +40,12 @@ const HorizontalScroll = () => {
         // viewport. Kept tight (no extra multiplier) so the pin releases
         // immediately after the text exits — otherwise the user keeps
         // scrolling on an empty background before the next section appears.
-        const travel = Math.max(textWidth - viewport * 0.1, viewport);
+        const travel = Math.max(textWidth, viewport);
         return travel;
       };
 
       const scrollTween = gsap.to(text, {
-        xPercent: -110,
+        xPercent: -100,
         ease: "none",
         scrollTrigger: {
           trigger: sticky,

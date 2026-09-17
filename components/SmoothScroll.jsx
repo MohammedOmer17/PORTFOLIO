@@ -27,7 +27,7 @@ const SmoothScroll = ({ children }) => {
       touchMultiplier: isTouch ? 1 : 0.25,
       prevent: (node) =>
         node instanceof HTMLElement &&
-        Boolean(node.closest("a, button, input, textarea, select, [data-lenis-prevent]")),
+        Boolean(node.closest("button, input, textarea, select, [data-lenis-prevent]")),
     });
 
     // Expose the active Lenis instance globally so other components (e.g. the
