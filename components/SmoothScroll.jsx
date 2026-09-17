@@ -19,10 +19,15 @@ const SmoothScroll = ({ children }) => {
       duration: isTouch ? 1.0 : 1.5,
       easing: (t) => Math.min(1, 1.001 - Math.pow(2, -10 * t)),
       smooth: true,
-      // On touch devices, native scrolling feels best — disable Lenis touch
-      // smoothing and let the browser handle inertial scrolling natively.
-      smoothTouch: false,
-      touchMultiplier: isTouch ? 1.5 : 0.25,
+      // Keep the browser's swipe feel while letting Lenis stay in sync with
+      // touch momentum, so ScrollTrigger and pinned sections track naturally.
+      syncTouch: isTouch,
+      syncTouchLerp: isTouch ? 0.12 : 0.075,
+      touchInertiaExponent: 1.7,
+      touchMultiplier: isTouch ? 1 : 0.25,
+      prevent: (node) =>
+        node instanceof HTMLElement &&
+        Boolean(node.closest("a, button, input, textarea, select, [data-lenis-prevent]")),
     });
 
     // Expose the active Lenis instance globally so other components (e.g. the

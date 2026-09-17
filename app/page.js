@@ -16,6 +16,7 @@ import HorizontalScroll from "@/components/HorizontalScroll/HorizontalScroll";
 import Projects from "@/components/Projects/Projects";
 import Contact from "@/components/Contact/Contact";
 import SiteFooter from "@/components/SiteFooter/SiteFooter";
+import { SpeedInsights } from "@vercel/speed-insights/next";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 
@@ -96,6 +97,7 @@ export default function Home() {
         <HorizontalScroll />
         <Contact />
         <SiteFooter />
+        <SpeedInsights />
 
         {/* GradualBlur — hidden when footer is in view */}
         <div
