@@ -2,17 +2,6 @@
 
 A stunning, interactive portfolio website for Elfekky featuring advanced animations, 3D elements, and smooth user experience.
 
-## 🌐 Live Demo
-
-
-<img width="1896" height="948" alt="image" src="https://github.com/user-attachments/assets/31470f48-4acb-4d4b-a528-34cfd3b3ef7f" />
-<img width="1895" height="946" alt="image" src="https://github.com/user-attachments/assets/d6e4f7e9-671d-4d63-94c5-c4752dbd9c78" />
-<img width="1899" height="948" alt="image" src="https://github.com/user-attachments/assets/c4f134d2-9436-46b9-b662-cbda60c40626" />
-<img width="1864" height="928" alt="image" src="https://github.com/user-attachments/assets/250e09e4-c259-4d69-a8b3-2438179096d1" />
-
-## 👨‍💻 Developer & Project Context
-
-
 ## ✨ Features
 
 - **Modern Next.js Architecture**: Built with Next.js 14 for optimal performance
@@ -98,10 +87,3 @@ elfekky-portfolio/
 - **GradualBlur**: Advanced blur effects for visual depth
 - **Character**: 3D character components with React Three Fiber
 
-## 📄 License & Credits
-
-This project was developed by [Mtarif](https://mtarif.com) for a client and is proprietary.
-
-- **Developer**: [Mtarif](https://mtarif.com) (Contact for work at [www.mtarif.com](https://www.mtarif.com))
-- **Client / Owner**: Elfekky
-- **Live Site**: [elfekky.site](https://elfekky.site)
