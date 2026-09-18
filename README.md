@@ -4,7 +4,7 @@ A stunning, interactive portfolio website for Elfekky featuring advanced animati
 
 ## 🌐 Live Demo
 
-Check out the live demo at [elfekky.site](https://elfekky.site)
+
 <img width="1896" height="948" alt="image" src="https://github.com/user-attachments/assets/31470f48-4acb-4d4b-a528-34cfd3b3ef7f" />
 <img width="1895" height="946" alt="image" src="https://github.com/user-attachments/assets/d6e4f7e9-671d-4d63-94c5-c4752dbd9c78" />
 <img width="1899" height="948" alt="image" src="https://github.com/user-attachments/assets/c4f134d2-9436-46b9-b662-cbda60c40626" />
@@ -12,11 +12,6 @@ Check out the live demo at [elfekky.site](https://elfekky.site)
 
 ## 👨‍💻 Developer & Project Context
 
-This project was developed by [Mtarif](https://mtarif.com) for a client. 
-
-For work inquiries or contact:
-- **Website**: [www.mtarif.com](https://www.mtarif.com)
-- **Contact for Work**: [www.mtarif.com](https://www.mtarif.com)
 
 ## ✨ Features
 
