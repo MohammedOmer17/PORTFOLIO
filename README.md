@@ -1,4 +1,4 @@
-# Elfekky Portfolio
+# OMER Portfolio
 
 A stunning, interactive portfolio website for Elfekky featuring advanced animations, 3D elements, and smooth user experience.
 
