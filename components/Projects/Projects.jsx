@@ -29,7 +29,7 @@ const VENTURES = [
   {
     name: "NearBuy",
     role: "For kirana shop and marts",
-    href: null,
+    href: "https://github.com/MohammedOmer17/NEARBUY",
     kind: "Delivery App",
   },
   {
