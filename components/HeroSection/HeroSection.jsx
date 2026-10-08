@@ -245,13 +245,13 @@ const HeroSection = () => {
         </div>
 
         {/* Portrait image (foreground, moves more) */}
-        <div className="hero-layer" data-depth="0.50" style={{ zIndex: 10 }}>
+        <div className="hero-layer" data-depth="0.50" style={{ zIndex: 12 }}>
           <div id="hero-img" ref={imgRef}>
             <img src="/Portfolio_Img-4.png" alt="" draggable="false" />
           </div>
         </div>
 
-        {/* Front stroke (top-most) */}
+        {/* Front decorative stroke */}
         <div className="hero-layer" data-depth="0.30" style={{ zIndex: 11 }}>
           <div id="hero-stroke-1" ref={stroke1Ref}>
             <img src="/Svg_Stroke.png" alt="" draggable="false" />
